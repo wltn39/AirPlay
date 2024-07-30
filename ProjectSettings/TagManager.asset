@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Enemy
+  - Bullet
+  - Weapon
+  - FxTemporaire
+  - Coin
+  - Boss
+  - Item
+  - BossAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: VL_BackGround
+    uniqueID: 2498479821
+    locked: 0
+  - name: VL_Wall
+    uniqueID: 2013095371
+    locked: 0
+  - name: VL_Character
+    uniqueID: 3799893359
+    locked: 0
+  - name: VL_Effect
+    uniqueID: 2715838547
+    locked: 0

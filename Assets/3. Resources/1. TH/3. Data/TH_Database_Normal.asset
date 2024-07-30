@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532080b56b321ec41be7ba552f480a43, type: 3}
+  m_Name: TH_Database_Normal
+  m_EditorClassIdentifier: 
+  playerMoveSpeed: 3
+  shootInterval: 0.45
+  clonePrefab: {fileID: 7995850704016808879, guid: eca28f71856883748b84c136c4514105, type: 3}
+  cloneShootInterval: 0.6
+  upgradeInterval: 9
+  enemies:
+  - {fileID: 4214129339226394429, guid: c57a27fba560695448fcda5728c28f9d, type: 3}
+  - {fileID: 2903720362964839524, guid: 6c3cf16a97eaccd489dc95f3285ab455, type: 3}
+  - {fileID: 3316757845301818916, guid: 55fe848c99225514fa0ebdd5b2a643b6, type: 3}
+  - {fileID: 7193198054725615483, guid: 5a856a9dbaee259468159d07250f598a, type: 3}
+  - {fileID: 1082832680757002815, guid: f75519ecc2b113147821d4b072d81047, type: 3}
+  - {fileID: 6234532906135811586, guid: df38d2de9aa58d9419d45f7613ac83b7, type: 3}
+  - {fileID: 1000011411674848, guid: 1494f8bb9dec80b45bc1086dce486b7b, type: 3}
+  - {fileID: 1000010928770070, guid: a48496d8e45fb124893de4b5c0e3ca18, type: 3}
+  - {fileID: 1000011181575560, guid: 83189e55a3995ff48886cd1ae2195406, type: 3}
+  EnemyMoveSpeed: 6.5
+  arrPosY:
+  - -2.4
+  - -1.5
+  - -0.6
+  - 0.3
+  - 1.2
+  - 2.1
+  Boss: {fileID: 7852823541865840265, guid: 68cea693a6a93074497efc5f648de69c, type: 3}
+  SpawnInterval: 1
+  BossSpawn: 6
+  coin: {fileID: 5224665160703637594, guid: 612a47364987e7040a15e4bf50cd3267, type: 3}
+  sfxDataArr:
+  - sfxType: 10
+    clip: {fileID: 8300000, guid: 8a8d9307d7c19774886491c87d56d2fd, type: 3}
+    volume: 1
+  - sfxType: 20
+    clip: {fileID: 8300000, guid: 039ad87597ad65e42a9a363957ce5229, type: 3}
+    volume: 1
+  - sfxType: 30
+    clip: {fileID: 8300000, guid: 390bc90bad695b840b498ede9f3600f3, type: 3}
+    volume: 3
+  - sfxType: 50
+    clip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+    volume: 3
+  - sfxType: 40
+    clip: {fileID: 8300000, guid: 29e720f70669bcc4180f680c4cb612ba, type: 3}
+    volume: 10
+  - sfxType: 60
+    clip: {fileID: 8300000, guid: 6275a1bf77f087344b53616f5bb3ae2e, type: 3}
+    volume: 3
