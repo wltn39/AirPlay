@@ -187,7 +187,7 @@ public class BluetoothService : MonoBehaviour
         //  {
         //      // action 하지만 사용하지 않음
         //  },
-        //actionAdvertisingInfo, Advertising 이란 디바이스 정보를 알려주는 과정임
+        //actionAdrtisingInfo, Advertising 이란 디바이스 정보를 알려주는 과정임
         BluetoothLEHardwareInterface.ScanForPeripheralsWithServices(
              ServiceUUIDs, null, (address, name, rssi, bytes) =>
              {
