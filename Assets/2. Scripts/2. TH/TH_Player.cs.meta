@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - explosionFactory: {instanceID: 0}
   - shootTransform: {instanceID: 0}
-  executionOrder: 0
+  executionOrder: 200
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 

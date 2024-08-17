@@ -29,6 +29,13 @@ public class TH_Player : MonoBehaviour
 
     void Start()
     {
+        // TH_Database_Manager.Instance가 null이면 초기화될 때까지 대기
+        if (TH_Database_Manager.Instance == null)
+        {
+            Debug.LogError("TH_Database_Manager.Instance가 아직 초기화되지 않았습니다.");
+            return;
+        }
+
         rightClone = Instantiate(TH_Database_Manager.Instance.clonePrefab, transform.position + rightCloneOffset, Quaternion.identity);
         rightClone.SetActive(false);
 
