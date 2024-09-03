@@ -18,5 +18,8 @@ EditorBuildSettings:
     path: Assets/1. Scenes/2. TH/TH_Game_Hard.unity
     guid: 54dc9b75b3b788e488b994a1b83143ab
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 498c4dfc54ec3bc49ba4acc145b33121, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 29b606614f8a54448a93986dbacb5658, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: c6b0f7ee15b300041840f74b62b62161, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 615e1249bec8ae7419b7f370e660197a, type: 2}
+  m_UseUCBPForAssetBundles: 0
