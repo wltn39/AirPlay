@@ -13,6 +13,12 @@ public class TH_GameTimeDisplay : MonoBehaviour
 
     void Update()
     {
+        // 게임 종료시 타이머 멈추게 처리 - kail 2024.09.24
+        if (TH_GameManager.instance.isGameOver == true)
+        {
+            return;
+        }
+
         elapsedTime += Time.deltaTime;
         DisplayElapsedTime(elapsedTime);
     }

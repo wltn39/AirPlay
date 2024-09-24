@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class TH_Player : MonoBehaviour
 {
+    public static TH_Player Instance = null;
+
     public GameObject explosionFactory;
     public Transform shootTransform;
 
@@ -26,9 +28,15 @@ public class TH_Player : MonoBehaviour
 
     private BluetoothService _service;
 
-
-    void Start()
+    private void Awake()
     {
+        Instance = this;
+    }
+
+    //void Start()
+    public void Init()
+    {
+        // TODO: Start함수는 한번만 호출되기 때문에 아래 코드는 수정이 필요. TH_Database_Manager의 Start가 끝난 다음에 호출되게 수정 필요. - kail 2024.09.24
         // TH_Database_Manager.Instance가 null이면 초기화될 때까지 대기
         if (TH_Database_Manager.Instance == null)
         {

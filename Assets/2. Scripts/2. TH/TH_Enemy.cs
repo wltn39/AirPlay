@@ -27,6 +27,12 @@ public class TH_Enemy : MonoBehaviour
 
     void Update()
     {
+        // 게임 종료되면 멈추게 처리 - kail 2024.09.24
+        if (TH_GameManager.instance.isGameOver == true)
+        {
+            return;
+        }
+
         if (playerTransform != null)
         { 
             Vector3 direction = (playerTransform.position - transform.position).normalized;

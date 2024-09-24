@@ -24,15 +24,22 @@ public class TH_GameManager : MonoBehaviour
     // StartCoroutine(StartGameWithDelay(3f)); // 3초 지연 후 게임 시작                
     // }
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
     private void Start()
     {
         this.database_Manager.Init_Func();
         this.soundSystem.Init_Func();
+        TH_Player.Instance.Init();  // 싱글턴 이용해서 초기화 - kail 2024.09.24
 
-        if (instance == null)
-        {
-            instance = this;
-        }
+        // Awake로 이동 처리 - kail 2024.09.24
+        //if (instance == null)
+        //{
+        //    instance = this;
+        //}
     }
 
     public void IncreaseCoin()

@@ -16,7 +16,8 @@ public class TH_EnemySpawner : MonoBehaviour
 
     public void StopEnemyRoutine()
     {
-        StopCoroutine("EnemyRoutine");
+        //StopCoroutine("EnemyRoutine");
+        StopAllCoroutines();    // 클래스 내부의 코루틴을 제거 - kail 2024.09.24
     }
 
     IEnumerator EnemyRoutine()
