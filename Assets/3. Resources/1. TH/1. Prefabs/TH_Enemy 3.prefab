@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7098042474188325529}
   - component: {fileID: 8828494000319693412}
   - component: {fileID: 7802835865345698473}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TH_Enemy 3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -60,6 +60,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -111,7 +113,7 @@ MonoBehaviour:
   EnemyHp: 5
 --- !u!95 &7098042474188325529
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -125,6 +127,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -188,7 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444312414559435}
   - component: {fileID: 6999155564402523835}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,6 +230,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -272,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444313852645165}
   - component: {fileID: 6999155567432876181}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Leg Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,6 +316,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -356,7 +363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444313538824247}
   - component: {fileID: 6999155562490716033}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,6 +402,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -440,7 +449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444311882363451}
   - component: {fileID: 6999155567820974647}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Leg Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,6 +488,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -524,7 +535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444310047939973}
   - component: {fileID: 6999155567803086315}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,6 +574,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -608,7 +621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444314867998305}
   - component: {fileID: 6999155561956411881}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,6 +660,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -692,7 +707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7196444312651621629}
   - component: {fileID: 6999155567986074311}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -731,6 +746,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

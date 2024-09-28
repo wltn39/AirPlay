@@ -1,0 +1,39 @@
+{
+  "buildFiles": [
+    "/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Volumes/GoldfishSSD/Application/2023.2.20f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Volumes/GoldfishSSD/Application/2023.2.20f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "swappywrapper::@7e25bd1f32ce224db4e9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "swappywrapper",
+      "output": "/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/y601c553/obj/armeabi-v7a/libswappywrapper.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Volumes/GoldfishSSD/Application/2023.2.20f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Volumes/GoldfishSSD/Application/2023.2.20f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

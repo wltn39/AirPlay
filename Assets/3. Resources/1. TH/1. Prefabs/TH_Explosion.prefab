@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 294364003325551377}
   - component: {fileID: 294364003325551391}
   - component: {fileID: 294364003325551376}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4664,6 +4664,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4730,7 +4732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2392204695625709560}
   - component: {fileID: 5638522286567231322}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4760,9 +4762,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758504873539901447}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 1, g: 0.6207441, b: 0.20392156, a: 1}
   m_Intensity: 0
   m_Range: 10
@@ -4825,7 +4826,7 @@ GameObject:
   - component: {fileID: 3438313652468528962}
   - component: {fileID: 60604069881325041}
   - component: {fileID: 5069506776915014960}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Small fire anim delay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9600,6 +9601,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9667,7 +9670,7 @@ GameObject:
   - component: {fileID: 6392491402937755026}
   - component: {fileID: 6392491402937755024}
   - component: {fileID: 6392491402937755025}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Ember
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14500,6 +14503,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14567,7 +14572,7 @@ GameObject:
   - component: {fileID: 8271725968092607632}
   - component: {fileID: 5817596349614910629}
   - component: {fileID: 3382749032140692839}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19400,6 +19405,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19468,7 +19475,7 @@ GameObject:
   - component: {fileID: 8194992990867289333}
   - component: {fileID: 8194992990867289332}
   - component: {fileID: 1347780276449787774}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TH_Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24306,6 +24313,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4266022153310513745}
   - component: {fileID: 4266022153310513747}
   - component: {fileID: 4266022153310513744}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quick Spikes Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,6 +51,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4767,7 +4769,7 @@ GameObject:
   - component: {fileID: 8730105067150012858}
   - component: {fileID: 2677161697790701523}
   - component: {fileID: 5379617032493812626}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: "Smoke 0\xB0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9618,6 +9620,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9685,7 +9689,7 @@ GameObject:
   - component: {fileID: 4593184484798939053}
   - component: {fileID: 4593184484798939051}
   - component: {fileID: 4593184484798939050}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: "Smoke 180\xB0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14536,6 +14540,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14604,7 +14610,7 @@ GameObject:
   - component: {fileID: 4593184484909914550}
   - component: {fileID: 4593184484909914553}
   - component: {fileID: 4593184484909914548}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TH_BOSS_Explo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19454,6 +19460,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19711,7 +19719,7 @@ GameObject:
   - component: {fileID: 4593184484999142887}
   - component: {fileID: 4593184484999142885}
   - component: {fileID: 4593184484999142884}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rays
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24544,6 +24552,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24610,7 +24620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4593184485727747210}
   - component: {fileID: 4593184485727747213}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24640,9 +24650,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4593184485727747212}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.559, g: 0.17468749, b: 0.05240625, a: 1}
   m_Intensity: 0
   m_Range: 4
@@ -24705,7 +24714,7 @@ GameObject:
   - component: {fileID: 4593184486453238242}
   - component: {fileID: 4593184486453238240}
   - component: {fileID: 4593184486453238243}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: "Smoke 90\xB0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29556,6 +29565,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -29623,7 +29634,7 @@ GameObject:
   - component: {fileID: 4593184486781064078}
   - component: {fileID: 4593184486781064076}
   - component: {fileID: 4593184486781064079}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: "Smoke 270\xB0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34474,6 +34485,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -34541,7 +34554,7 @@ GameObject:
   - component: {fileID: 7540990062227072424}
   - component: {fileID: 7679181874253475382}
   - component: {fileID: 3658496226646509723}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quick Spikes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34581,6 +34594,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

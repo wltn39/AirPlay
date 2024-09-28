@@ -28,6 +28,8 @@ public class TH_Player : MonoBehaviour
 
     private BluetoothService _service;
 
+    public bool IsShoot = false;
+
     private void Awake()
     {
         Instance = this;
@@ -62,7 +64,8 @@ public class TH_Player : MonoBehaviour
 
     void Shoot()
     {
-        if (Time.time - lastShotTime > TH_Database_Manager.Instance.shootInterval && !Input.GetKey(KeyCode.Space))
+        //if (Time.time - lastShotTime > TH_Database_Manager.Instance.shootInterval && !Input.GetKey(KeyCode.Space))
+        if (Time.time - lastShotTime > TH_Database_Manager.Instance.shootInterval && IsShoot == true)
         {
             Instantiate(weapons[weaponIndex], shootTransform.position, Quaternion.identity);
             lastShotTime = Time.time;

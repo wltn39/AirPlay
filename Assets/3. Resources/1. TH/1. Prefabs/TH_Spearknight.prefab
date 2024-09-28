@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7461619239729604816}
   - component: {fileID: 6709340925316898821}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: leg_l_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 4569538769947382384}
   - component: {fileID: 2425784677203686166}
   - component: {fileID: 3446080795111006945}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: arm_r 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,6 +119,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -167,7 +169,7 @@ GameObject:
   - component: {fileID: 5324276272126233827}
   - component: {fileID: 7878403042753352737}
   - component: {fileID: 4329274130340642711}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: upperbody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,6 +233,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -279,7 +283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3620494403107938831}
   - component: {fileID: 7509637578755696019}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hand_l_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7148829410557540574}
   - component: {fileID: 1043332893489199613}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sword2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +382,7 @@ GameObject:
   - component: {fileID: 6643058104082497635}
   - component: {fileID: 315239194476677772}
   - component: {fileID: 6191016525771827068}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: lowerbody2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,6 +448,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -480,7 +486,7 @@ GameObject:
   - component: {fileID: 3313534711912566449}
   - component: {fileID: 5595339823466547447}
   - component: {fileID: 4769775227008690109}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hand_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,6 +546,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -587,7 +595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213525352873432189}
   - component: {fileID: 4558699144127855879}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PivotHip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +647,7 @@ GameObject:
   - component: {fileID: 7325189714770551724}
   - component: {fileID: 7723321163806109689}
   - component: {fileID: 1228662141816416059}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: leg _l_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,6 +706,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -746,8 +756,8 @@ GameObject:
   - component: {fileID: 9217318024978530317}
   - component: {fileID: 1442519058441843560}
   - component: {fileID: 8070749841004118237}
-  m_Layer: 0
-  m_Name: Spearknight
+  m_Layer: 5
+  m_Name: TH_Spearknight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -772,7 +782,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1442519058441843560
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -786,6 +796,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -813,7 +824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4643368335420225002}
   - component: {fileID: 8684184381456082768}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: lowerbody_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7255245879368908434}
   - component: {fileID: 7344239924760768985}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Head_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +922,7 @@ GameObject:
   - component: {fileID: 1752080252117421388}
   - component: {fileID: 7711225212654452427}
   - component: {fileID: 152457823478963063}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: wepon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,6 +981,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1017,7 +1030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4058659836946346266}
   - component: {fileID: 2510345099391892121}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Uppper2_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1068,7 +1081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3606327923857357314}
   - component: {fileID: 7737556262309485615}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: leg_r_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1115,7 +1128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4980164553713788705}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2804404250922857599}
   - component: {fileID: 5913684952527335856}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hand_r_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1196,7 +1209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8377283855514886318}
   - component: {fileID: 7843332773870177741}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sword_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,7 +1258,7 @@ GameObject:
   - component: {fileID: 4706659139363465266}
   - component: {fileID: 2130294464244909870}
   - component: {fileID: 187913833085872571}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,6 +1317,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1351,7 +1366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6818470550489951156}
   - component: {fileID: 528294678691521843}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: uppperbody_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1401,7 +1416,7 @@ GameObject:
   - component: {fileID: 6475044315088265014}
   - component: {fileID: 5601962504620504209}
   - component: {fileID: 3096342884540159796}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Shileld
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,6 +1475,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1507,7 +1524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7951924589889091496}
   - component: {fileID: 2581510839708163883}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: arm_r_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1558,7 +1575,7 @@ GameObject:
   - component: {fileID: 7373313310337619666}
   - component: {fileID: 2684880520484830067}
   - component: {fileID: 5465409202874234073}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: leg r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,6 +1634,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1665,7 +1684,7 @@ GameObject:
   - component: {fileID: 7875009374454768687}
   - component: {fileID: 6139094395643033739}
   - component: {fileID: 3906686677325533728}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hand_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1725,6 +1744,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1772,7 +1793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1316480991223922520}
   - component: {fileID: 1829746939320743423}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: arm_l_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1822,7 +1843,7 @@ GameObject:
   - component: {fileID: 1669797120892724274}
   - component: {fileID: 5331866214193971871}
   - component: {fileID: 8310369175497392272}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: lowerbody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1884,6 +1905,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1932,7 +1955,7 @@ GameObject:
   - component: {fileID: 941127421556052549}
   - component: {fileID: 7660939913806565653}
   - component: {fileID: 5836840789038614490}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: arm_l 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1992,6 +2015,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

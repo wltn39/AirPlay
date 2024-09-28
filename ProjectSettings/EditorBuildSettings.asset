@@ -10,16 +10,17 @@ EditorBuildSettings:
     guid: c74856b7a5089864fbbb05c55935f41d
   - enabled: 1
     path: Assets/1. Scenes/2. TH/TH_Game_Easy.unity
-    guid: df6c29b5395e0624f95255f5c7e628a1
+    guid: dc76374f1f675b049ae2295e5c81dada
   - enabled: 1
     path: Assets/1. Scenes/2. TH/TH_Game_Normal.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: e6e1ffbe56a592c478e19522171fdf4e
   - enabled: 1
     path: Assets/1. Scenes/2. TH/TH_Game_Hard.unity
-    guid: 54dc9b75b3b788e488b994a1b83143ab
+    guid: 75bb4c67a4ec44c4ea86e2468da41f97
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 498c4dfc54ec3bc49ba4acc145b33121, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 29b606614f8a54448a93986dbacb5658, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: c6b0f7ee15b300041840f74b62b62161, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 615e1249bec8ae7419b7f370e660197a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17e80e24146664a4d9c63eaa6bc78d2f, type: 2}
   m_UseUCBPForAssetBundles: 0

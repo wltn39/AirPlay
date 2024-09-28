@@ -1,0 +1,5 @@
+/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/.utmp/RelWithDebInfo/y601c553/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

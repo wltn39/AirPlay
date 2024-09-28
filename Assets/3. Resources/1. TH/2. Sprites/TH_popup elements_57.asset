@@ -6,7 +6,7 @@ Sprite:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: popup elements_57
+  m_Name: TH_popup elements_57
   m_Rect:
     serializedVersion: 2
     x: 6918
@@ -22,7 +22,7 @@ Sprite:
   m_AtlasName: 
   m_PackingTag: 
   m_RenderDataKey:
-    7bb12e1a1363c514bb9ee72a9acafce2: -1678012337
+    e032aa02c98efb64c8bc88ef081f8681: 21300000
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
@@ -248,4 +248,5 @@ Sprite:
     - {x: 0.89, y: -0.435}
     - {x: 1, y: -0.33499998}
   m_Bones: []
+  m_ScriptableObjects: []
   m_SpriteID: 6703fea49e50ff048a9e7a398ebb491c
