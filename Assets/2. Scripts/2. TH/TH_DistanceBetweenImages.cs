@@ -111,19 +111,35 @@ public class TH_DistanceBetweenImages : MonoBehaviour
             CheckImage(trackedImage);
         }
 
+        // 제거된 이미지 처리
+        foreach (var trackedImage in eventArgs.removed)
+        {
+            Debug.Log("remove - name: " + trackedImage.referenceImage.name);
+
+            if (trackedImage.referenceImage.name == firstImageName)
+            {
+                firstTrackedImage = null;
+            }
+            else if (trackedImage.referenceImage.name == secondImageName)
+            {
+                secondTrackedImage = null;
+            }
+        }
+
         // 두 이미지 모두 인식되면 거리를 계산
         if (firstTrackedImage != null && secondTrackedImage != null)
         {
             //float distance = Vector3.Distance(firstTrackedImage.transform.position, secondTrackedImage.transform.position);
             float distance = Vector3.Distance(QR1.transform.position, QR2.transform.position);
-            Debug.Log("Distance between images: " + distance + " meters.");
+            //Debug.Log("Distance between images: " + distance + " meters.");
 
-            Debug.Log("firstTrackedImage position: " + firstTrackedImage.transform.position);
-            Debug.Log("secondTrackedImage position: " + secondTrackedImage.transform.position);
+            //Debug.Log("firstTrackedImage position: " + firstTrackedImage.transform.position);
+            //Debug.Log("secondTrackedImage position: " + secondTrackedImage.transform.position);
 
-            // TODO: 25cm 이상 차이일때 발사 처리 하기 - kail 2024.09.26
+            // 25cm 이상 차이일때 발사 처리 하기 (3.28cm QR)- kail 2024.09.26
             // 1.5m -> 25cm? 6으로 나눠서 표시.
-            float cm = (distance / 6.0f) * 100.0f;
+            // 11cm -> 22 cm
+            float cm = (distance / 12.0f) * 100.0f;
 
             if (cm >= 25.0f)
             {
@@ -137,39 +153,53 @@ public class TH_DistanceBetweenImages : MonoBehaviour
 
             GetDistance.text = cm.ToString("F2") + " cm";
         }
-
-        // 제거된 이미지 처리
-        foreach (var trackedImage in eventArgs.removed)
+        else
         {
-            if (trackedImage.referenceImage.name == firstImageName)
-            {
-                firstTrackedImage = null;
-            }
-            else if (trackedImage.referenceImage.name == secondImageName)
-            {
-                secondTrackedImage = null;
-            }
-        }
+            Debug.Log("image is null..");
+
+            // 인식 안될때는 안쏘게 처리 - kail 2024.10.02
+            TH_Player.Instance.IsShoot = false;
+
+            GetDistance.text = "- cm";
+        }        
     }
 
     private void CheckImage(ARTrackedImage trackedImage)
     {
         //Debug.Log(">>> CheckImage: " + trackedImage.referenceImage.name);
 
-        // 첫 번째 이미지인지 확인
-        if (trackedImage.referenceImage.name == firstImageName)
+        if (trackedImage.trackingState == TrackingState.Tracking)
         {
-            firstTrackedImage = trackedImage;
-            //Debug.Log(">>> CheckImage set first");
-            QR1.transform.position = trackedImage.transform.position;
-        }
+            // 첫 번째 이미지인지 확인
+            if (trackedImage.referenceImage.name == firstImageName)
+            {
+                firstTrackedImage = trackedImage;
+                //Debug.Log(">>> CheckImage set first");
+                QR1.transform.position = trackedImage.transform.position;
+            }
 
-        // 두 번째 이미지인지 확인
-        else if (trackedImage.referenceImage.name == secondImageName)
-        {
-            secondTrackedImage = trackedImage;
-            //Debug.Log(">>> CheckImage set second");
-            QR2.transform.position = trackedImage.transform.position;
+            // 두 번째 이미지인지 확인
+            else if (trackedImage.referenceImage.name == secondImageName)
+            {
+                secondTrackedImage = trackedImage;
+                //Debug.Log(">>> CheckImage set second");
+                QR2.transform.position = trackedImage.transform.position;
+            }
         }
+        else
+        {
+            // 제거 처리를 여기에서 해야 할듯.
+            if (trackedImage.referenceImage.name == firstImageName)
+            {
+                firstTrackedImage = null;
+            }
+
+            // 두 번째 이미지인지 확인
+            else if (trackedImage.referenceImage.name == secondImageName)
+            {
+                secondTrackedImage = null;
+            }
+        }
+        
     }
 }

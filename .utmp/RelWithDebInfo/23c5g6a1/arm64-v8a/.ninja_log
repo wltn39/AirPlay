@@ -1,5 +1,5 @@
 # ninja log v5
-47	1664	1727421028456618709	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d153c2458b138462
-1664	2705	1727421029484352122	/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/23c5g6a1/obj/arm64-v8a/libswappywrapper.so	17ff2dce85e7e06d
-9	473	1727424283174505777	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d153c2458b138462
-474	803	1727424283479028027	/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/23c5g6a1/obj/arm64-v8a/libswappywrapper.so	17ff2dce85e7e06d
+414	684	1727858318604724706	/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/23c5g6a1/obj/arm64-v8a/libswappywrapper.so	17ff2dce85e7e06d
+4	414	1727858318352556013	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d153c2458b138462
+0	932	1727858864386606725	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d153c2458b138462
+932	1231	1727858864662412673	/Volumes/GoldfishSSD/Goldfish Outsourcing/02_AirPlay/AirPlay/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/23c5g6a1/obj/arm64-v8a/libswappywrapper.so	17ff2dce85e7e06d

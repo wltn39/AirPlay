@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/1. Scenes/1. Ble/Ble.unity
     guid: c74856b7a5089864fbbb05c55935f41d
   - enabled: 1
     path: Assets/1. Scenes/2. TH/TH_Game_Easy.unity
     guid: dc76374f1f675b049ae2295e5c81dada
-  - enabled: 1
+  - enabled: 0
     path: Assets/1. Scenes/2. TH/TH_Game_Normal.unity
     guid: e6e1ffbe56a592c478e19522171fdf4e
-  - enabled: 1
+  - enabled: 0
     path: Assets/1. Scenes/2. TH/TH_Game_Hard.unity
     guid: 75bb4c67a4ec44c4ea86e2468da41f97
   m_configObjects:
