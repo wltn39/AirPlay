@@ -139,7 +139,7 @@ public class TH_DistanceBetweenImages : MonoBehaviour
             // 25cm 이상 차이일때 발사 처리 하기 (3.28cm QR)- kail 2024.09.26
             // 1.5m -> 25cm? 6으로 나눠서 표시.
             // 11cm -> 22 cm
-            float cm = (distance / 12.0f) * 100.0f;
+            float cm = distance * 100.0f;
 
             if (cm >= 25.0f)
             {
@@ -168,7 +168,9 @@ public class TH_DistanceBetweenImages : MonoBehaviour
     {
         //Debug.Log(">>> CheckImage: " + trackedImage.referenceImage.name);
 
-        if (trackedImage.trackingState == TrackingState.Tracking)
+        // Tracking만 했더니 인식이 안된다고 해서 Limited까지 추가함 - kail 2024.10.07
+        // Limited까지 얺으면 기존과 동일하게 인식 안되도 계속 거리를 보여주고 있어서 못쓸듯함. - kail 2024.10.07
+        if (trackedImage.trackingState == TrackingState.Tracking)   // || trackedImage.trackingState == TrackingState.Limited)
         {
             // 첫 번째 이미지인지 확인
             if (trackedImage.referenceImage.name == firstImageName)
