@@ -8,6 +8,9 @@ public class TestButton : MonoBehaviour
 
     public GameObject[] MeshRender;
 
+    public Camera CameraSprite;
+    public Camera CameraAR;
+
     bool isTest = false;
 
     public void ClickTest()
@@ -27,6 +30,11 @@ public class TestButton : MonoBehaviour
             {
                 MeshRender[i].GetComponent<MeshRenderer>().enabled = true;
             }
+
+            // 카메라 설정. (테스트)
+            CameraSprite.clearFlags = CameraClearFlags.Nothing;
+
+            CameraAR.rect = new Rect(0, 0, 1, 1);
         }
         else
         {
@@ -40,6 +48,9 @@ public class TestButton : MonoBehaviour
             {
                 MeshRender[i].GetComponent<MeshRenderer>().enabled = false;
             }
+
+            // 카메라 설정. (게임)
+            CameraSprite.clearFlags = CameraClearFlags.SolidColor;
         }
     }
 }

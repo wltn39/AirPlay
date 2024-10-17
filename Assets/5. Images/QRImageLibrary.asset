@@ -37,3 +37,43 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: qr2
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4939454200821643355
+      m_GuidHigh: 15967901849044458118
+    m_SerializedTextureGuid:
+      m_GuidLow: 7237644736570903068
+      m_GuidHigh: 7110524379800018281
+    m_Size: {x: 0.033, y: 0.033}
+    m_SpecifySize: 1
+    m_Name: qr3
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5372100358663373616
+      m_GuidHigh: 11603651802355920033
+    m_SerializedTextureGuid:
+      m_GuidLow: 17588611608938778039
+      m_GuidHigh: 10614622947179480219
+    m_Size: {x: 0.033, y: 0.033}
+    m_SpecifySize: 1
+    m_Name: qr4
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5585924540573632096
+      m_GuidHigh: 8798980642046785441
+    m_SerializedTextureGuid:
+      m_GuidLow: 11885443974798874871
+      m_GuidHigh: 5517987498850451162
+    m_Size: {x: 0.033, y: 0.033}
+    m_SpecifySize: 1
+    m_Name: qr5
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5595263221188496179
+      m_GuidHigh: 4408380000957061039
+    m_SerializedTextureGuid:
+      m_GuidLow: 14183495776839154435
+      m_GuidHigh: 10000194835019184187
+    m_Size: {x: 0.033, y: 0.033}
+    m_SpecifySize: 1
+    m_Name: qr6
+    m_Texture: {fileID: 0}

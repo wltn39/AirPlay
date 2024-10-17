@@ -2862,7 +2862,7 @@ Camera:
   m_GameObject: {fileID: 798599576}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.4442417, g: 0.51728815, b: 0.6320754, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2886,7 +2886,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 55
   orthographic: 0
   orthographic size: 5
   m_Depth: 3
@@ -6039,7 +6039,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 20
+  far clip plane: 1000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -7002,6 +7002,8 @@ MonoBehaviour:
   MeshRender:
   - {fileID: 1402133856}
   - {fileID: 579197580}
+  CameraSprite: {fileID: 798599578}
+  CameraAR: {fileID: 1847736749}
 --- !u!1 &1942064693
 GameObject:
   m_ObjectHideFlags: 0
