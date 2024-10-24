@@ -137,11 +137,10 @@ public class TH_DistanceBetweenImages : MonoBehaviour
             //Debug.Log("secondTrackedImage position: " + secondTrackedImage.transform.position);
 
             // 25cm 이상 차이일때 발사 처리 하기 (3.28cm QR)- kail 2024.09.26
-            // 1.5m -> 25cm? 6으로 나눠서 표시.
-            // 11cm -> 22 cm
+            // 15cm 이상 차이로 변경 (5cm QR) - kail 2024.10.24
             float cm = distance * 100.0f;
 
-            if (cm >= 25.0f)
+            if (cm >= 15.0f)
             {
                 // 발사하기.
                 TH_Player.Instance.IsShoot = true;
