@@ -84,6 +84,9 @@ public class TH_DistanceBetweenImages : MonoBehaviour
     public GameObject QR2;
 
     public Text GetDistance;
+    public GameObject PopupWaiting;
+
+    bool isFirstRecongize = false;
 
     void OnEnable()
     {
@@ -144,6 +147,14 @@ public class TH_DistanceBetweenImages : MonoBehaviour
             {
                 // 발사하기.
                 TH_Player.Instance.IsShoot = true;
+
+                if (isFirstRecongize == false)
+                {
+                    isFirstRecongize = true;
+                    PopupWaiting.SetActive(false);
+                    TH_EnemySpawner.Instance.StartEnemyRoutine();
+                    TH_GameManager.instance.IsGameStart = true;
+                }
             }
             else
             {

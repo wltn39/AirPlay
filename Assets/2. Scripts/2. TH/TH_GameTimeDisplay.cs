@@ -19,6 +19,11 @@ public class TH_GameTimeDisplay : MonoBehaviour
             return;
         }
 
+        if (TH_GameManager.instance.IsGameStart == false)
+        {
+            return;
+        }
+
         elapsedTime += Time.deltaTime;
         DisplayElapsedTime(elapsedTime);
     }

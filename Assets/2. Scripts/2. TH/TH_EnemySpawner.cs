@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class TH_EnemySpawner : MonoBehaviour
 {
-    void Start()
+    //void Start()
+    //{
+    //    StartEnemyRoutine();
+    //}
+
+    public static TH_EnemySpawner Instance = null;
+
+    private void Awake()
     {
-        StartEnemyRoutine();
+        Instance = this;
     }
 
-    void StartEnemyRoutine()
+    // qr 인식 이후에 적 생성되게 수정 - kail 2024.10.25
+    public void StartEnemyRoutine()
     {
         StartCoroutine(EnemyRoutine());
     }

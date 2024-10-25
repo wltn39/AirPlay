@@ -18,6 +18,7 @@ public class TH_GameManager : MonoBehaviour
 
     [HideInInspector]
     public bool isGameOver = false;
+    public bool IsGameStart = false;    // 시작 용도로 추가함 - kail 2024.10.25
 
     //  private void Awake()
     // {
